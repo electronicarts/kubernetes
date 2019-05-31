@@ -29,7 +29,7 @@ const (
 	// MaxTotalPriority defines the max total priority value.
 	MaxTotalPriority = int64(math.MaxInt64)
 	// MaxPriority defines the max priority value.
-	MaxPriority = 10
+	MaxPriority = 1000
 	// MaxWeight defines the max weight value.
 	MaxWeight = MaxTotalPriority / MaxPriority
 	// DefaultPercentageOfNodesToScore defines the percentage of nodes of all nodes
