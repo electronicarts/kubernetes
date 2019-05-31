@@ -33,7 +33,7 @@ const (
 	// MaxTotalPriority defines the max total priority value.
 	MaxTotalPriority = MaxInt
 	// MaxPriority defines the max priority value.
-	MaxPriority = 10
+	MaxPriority = 1000
 	// MaxWeight defines the max weight value.
 	MaxWeight = MaxInt / MaxPriority
 )
